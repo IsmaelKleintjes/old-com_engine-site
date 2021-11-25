@@ -1,0 +1,25 @@
+<form>
+    <fieldset name="general" addfieldpath="/administrator/components/com_engine/models/fields/">
+
+        <field
+                name="email"
+                type="email"
+                label="COM_ENGINE_YOUR_EMAIL"
+                class="form-control required email"
+                default=""
+                required="true"
+                hint="COM_ENGINE_YOUR_EMAIL"
+                />
+    </fieldset>
+    <fieldset name="hidden">
+        <field
+                name="captcha"
+                type="captcha"
+                validate="captcha"
+        />
+        <field
+            name="id"
+            type="hidden"
+        />
+    </fieldset>
+</form>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="3.0" method="upgrade">
+	<name>Engine</name>
+	<author>Edit4U Webservices BV</author>
+	<creationDate>Maart 2017</creationDate>
+	<copyright>(C) 2004 - 2017 Edit4U Webservices</copyright>
+	<license>Algemene voorwaarden Edit4U Webservices BV.</license>
+	<authorEmail>info@edit4u.nl</authorEmail>
+	<authorUrl>www.edit4u.nl</authorUrl>
+	<version>3.0.0</version>
+	<description>Engine component</description>
+
+    <files folder="site">
+        <filename>index.html</filename>
+        <filename>engine.php</filename>
+        <filename>controller.php</filename>
+        <folder>views</folder>
+        <folder>models</folder>
+        <folder>controllers</folder>
+        <folder>language</folder>
+    </files>
+
+</extension>
+
+

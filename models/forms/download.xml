@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+<fieldset name="general" addfieldpath="/administrator/components/com_engine/models/fields/">
+    <field
+            name="name"
+            type="text"
+            label="COM_ENGINE_NAME"
+            class="form-control required"
+            required="true"
+			labelclass="control-label"
+            />
+
+    <field
+            name="email"
+            type="email"
+            label="COM_ENGINE_EMAIL"
+            class="form-control required email"
+            required="true"
+            labelclass="control-label"
+    />
+    <field
+            name="company"
+            type="text"
+            label="COM_ENGINE_COMPANY"
+            class="form-control required"
+            required="true"
+            labelclass="control-label"
+    />
+    <field
+            name="phone"
+            type="tel"
+            label="COM_ENGINE_PHONE"
+            class="form-control"
+            labelclass="control-label"
+    />
+	</fieldset>
+	<fieldset name="hidden">
+        <field
+                name="captcha"
+                type="captcha"
+                validate="captcha"
+        />
+		<field 
+			name="id"
+			type="hidden"
+		/>
+	</fieldset>
+</form>

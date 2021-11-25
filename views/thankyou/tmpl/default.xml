@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Thankyou">
+		<message>ENGINE - Thankyou</message>
+	</layout>
+    <fields name="params">
+
+        <fieldset name="params_2" label="Artikel">
+            <field
+                    name="article_id"
+                    type="sql"
+                    label="Artikel"
+                    class="inputbox validate"
+                    default=""
+                    required="true"
+                    query="SELECT id, title FROM #__content WHERE state = 1 ORDER BY title ASC"
+                    key_field="id"
+                    value_field="title"
+            >
+                <option value=""> - Selecteer - </option>
+            </field>
+        </fieldset>
+
+    </fields>
+</metadata>
